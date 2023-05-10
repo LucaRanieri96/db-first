@@ -18,4 +18,18 @@
 
 ## Table name: Cars
 
-## Table columns:
+## Table columns: 
+- id: numero della riga | BIGINT | PK, AI, NN, UNIQUE
+
+- model: VARCHAR(200), NN
+- car_brand: VARCHAR(200), NN
+- fuel_type: VARCHAR(50), NULLABLE
+- engine_size: DECIMAL(4,1), NULLABLE 
+- horsepower:  SMALLINT, NULLABLE
+- color: VARCHAR(50), NULLABLE
+- condition: VARCHAR(50), NULLABLE
+- year | YEAR, NULLABLE
+- year_of_enrollment | YEAR, NULLABLE
+- km | BIGINT, NULLABLE
+- note | TEXT, NULLABLE
+- photos | VARCHAR(255), NULLABLE
