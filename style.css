@@ -1,0 +1,11 @@
+body {
+  background-color: #161616;
+  padding-top: 8vh;
+  font-family: "Montserrat", sans-serif;
+}
+
+h2{
+    color: white;
+    font-size: 45px;
+    margin-bottom: 3rem;
+}
